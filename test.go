@@ -1,5 +1,8 @@
 package main
 
+// =======================================
+// fmt, pointer example
+
 // import "fmt"
 
 // func main() {
@@ -20,6 +23,7 @@ package main
 // }
 
 // =====================================================
+// named func example
 
 // import "fmt"
 
@@ -30,6 +34,7 @@ package main
 // }
 
 // =======================================================
+// struct and interface example
 
 // import "fmt"
 
@@ -60,9 +65,26 @@ package main
 // }
 
 // =======================================================
+// fiber example
 
-func main() {
-	app := fiber.new()
+// import (
+// 	"log"
 
-	app.Get()
-}
+// 	"github.com/gofiber/fiber/v3"
+// 	"github.com/gofiber/fiber/v3/middleware/logger"
+// )
+
+// func main() {
+// 	app := fiber.New()
+
+// 	app.Use(logger.New(logger.ConfigDefault))
+
+// 	app.Get("/", func(c fiber.Ctx) error {
+// 		return c.SendString("Hello, GO fiber World!")
+// 	})
+
+// 	log.Fatal(app.Listen(":8888"))
+
+// }
+
+// =======================================================
