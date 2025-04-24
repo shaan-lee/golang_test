@@ -1,6 +1,11 @@
 package main
 
 // =======================================
+// do it first
+
+// go mod init <your git repository url>
+
+// =======================================
 // fmt, pointer example
 
 // import "fmt"
